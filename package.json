@@ -1,0 +1,41 @@
+{
+  "name": "persian-yup-ts",
+  "version": "1.0.5",
+  "description": "Persian rules in yup",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [
+    "yup",
+    "validation",
+    "form-validation",
+    "typescript",
+    "persian",
+    "iran",
+    "national-code",
+    "mobile-validation",
+    "telephone-validation",
+    "iban-validation",
+    "postal-code",
+    "password-confirmation",
+    "custom-yup",
+    "react",
+    "data-validation"
+  ],
+  "author": "AliGhaleyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "yup": "^1.4.0"
+  }
+}

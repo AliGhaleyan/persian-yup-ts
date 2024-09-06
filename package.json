@@ -7,6 +7,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliGhaleyan/persian-yup-ts"
+  },
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch"

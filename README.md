@@ -53,14 +53,13 @@ To use `persian-yup-ts` in your project, follow these steps:
 `persian-yup-ts` provides a set of custom validation rules tailored for Persian data formats. Here’s a list of the
 available rules:
 
-| Rule Name              | Usage Example                                   | Description                                                           |
-|------------------------|-------------------------------------------------|-----------------------------------------------------------------------|
-| `nationalCode`         | `yup.string().nationalCode()`                   | Validates Iranian national identification codes.                      |
-| `mobile`               | `yup.string().mobile()`                         | Validates Iranian mobile phone numbers.                               |
-| `telephone`            | `yup.string().telephone()`                      | Validates Iranian landline telephone numbers.                         |
-| `iban`                 | `yup.string().iban()`                           | Validates Iranian IBANs.                                              |
-| `postalCode`           | `yup.string().postalCode()`                     | Validates Iranian postal codes.                                       |
-| `passwordConfirmation` | `yup.string().passwordConfirmation("password")` | Validates that the confirmation matches the referenced password field |
+| Rule Name      | Usage Example                 | Description                                      |
+|----------------|-------------------------------|--------------------------------------------------|
+| `nationalCode` | `yup.string().nationalCode()` | Validates Iranian national identification codes. |
+| `mobile`       | `yup.string().mobile()`       | Validates Iranian mobile phone numbers.          |
+| `telephone`    | `yup.string().telephone()`    | Validates Iranian landline telephone numbers.    |
+| `iban`         | `yup.string().iban()`         | Validates Iranian IBANs.                         |
+| `postalCode`   | `yup.string().postalCode()`   | Validates Iranian postal codes.                  |
 
 ## License
 

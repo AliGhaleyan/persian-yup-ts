@@ -12,8 +12,6 @@ declare module "yup" {
         iban(): StringSchema;
 
         postalCode(): StringSchema;
-
-        passwordConfirmation(ref: string): StringSchema;
     }
 }
 
@@ -62,10 +60,6 @@ export const makeYup = (props?: MakeYupProps) => {
                         )
                         : true,
             });
-    });
-
-    yup.addMethod(yup.string, "passwordConfirmation", function (ref: string) {
-        return yup.string().oneOf([yup.ref(ref)], props?.messages?.passwordConfirmation);
     });
 
     yup.addMethod(yup.string, "telephone", function () {
